@@ -27,3 +27,9 @@
   font-size: 1.15rem;
   line-height: 160%;
 }
+
+@media screen and (max-width: 700px) {
+  .About-main {
+    width: 100%;
+  }
+}

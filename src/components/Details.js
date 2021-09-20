@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/details.css";
+import { Calendar } from "react-feather";
 
 function Details() {
   return (
@@ -68,7 +69,7 @@ function Details() {
               final round.
             </p>
             <p className="Details-date">
-              25 Sep'21 12:00 PM IST - 25 Sep'21 06:00 PM IST
+              <Calendar /> 25 Sep'21 12:00 PM IST - 25 Sep'21 06:00 PM IST
             </p>
           </div>
 
@@ -88,7 +89,7 @@ function Details() {
               Presentations, Working Models, etc.
             </p>
             <p className="Details-date">
-              26 Sep'21 03:00 PM IST - 26 Sep'21 06:00 PM IST
+              <Calendar /> 26 Sep'21 03:00 PM IST - 26 Sep'21 06:00 PM IST
             </p>
           </div>
         </div>
