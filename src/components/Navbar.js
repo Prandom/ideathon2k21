@@ -7,12 +7,12 @@ function Navbar() {
     <div className="Navbar">
       <div className="container Navbar-container">
         <div className="Navbar-logo">
-          <a href="https://mntcnitdgp.co.in/"><img src="/logos/logo.svg" /></a>
+          <img src="/logos/logo.svg" />
         </div>
 
         <div className="Navbar-secondary-logo">
           <div className="Navbar-secondary-logo-mntc">
-            <img src="/logos/mntc-white.svg" />
+            <a href="https://mntcnitdgp.co.in/"><img src="/logos/mntc-white.svg" /></a>
           </div>
           {/* <div className="Navbar-secondary-logo-separator" /> */}
           <div className="Navbar-secondary-logo-nit">
