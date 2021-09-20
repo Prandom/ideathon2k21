@@ -13,7 +13,7 @@ function Hero() {
             <br /> winner of
             <br /> Ideathon
           </h1>
-          <a href="#" className="Hero-btn">
+          <a href="https://dare2compete.com/p/ideathon-national-institute-of-technology-nit-durgapur-210515?fbclid=IwAR35hd-HFw4kavxZI-JTHiUq4hOKuLjV2fBA1ZoWMCZe5ehoZe6Bp143QSg&lb=bSAfiq1" className="Hero-btn">
             Register Now
           </a>
         </div>
@@ -26,7 +26,7 @@ function Hero() {
       <div className="container Sponsor-container">
         <div className="Sponsor">
           <h3 className="Sponsor-text">In association with</h3>
-          <img src="/logos/gfg.svg" className="Sponsor-logo" />
+          <a href="https://www.geeksforgeeks.org/"><img src="/logos/gfg.svg" className="Sponsor-logo" /></a>
         </div>
       </div>
     </div>

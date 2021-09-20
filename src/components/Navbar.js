@@ -7,7 +7,7 @@ function Navbar() {
     <div className="Navbar">
       <div className="container Navbar-container">
         <div className="Navbar-logo">
-          <img src="/logos/logo.svg" />
+          <a href="https://mntcnitdgp.co.in/"><img src="/logos/logo.svg" /></a>
         </div>
 
         <div className="Navbar-secondary-logo">
@@ -16,7 +16,7 @@ function Navbar() {
           </div>
           {/* <div className="Navbar-secondary-logo-separator" /> */}
           <div className="Navbar-secondary-logo-nit">
-            <img src="/logos/nit-dgp-white.svg" />
+            <a href="https://nitdgp.ac.in/"><img src="/logos/nit-dgp-white.svg" /></a>
           </div>
         </div>
       </div>

@@ -55,6 +55,11 @@
   color: black;
   border-radius: 10px;
 }
+.Hero-btn:hover{
+  background-color: hsl(210, 76%, 23%);
+  color: #81fefd;
+  box-shadow: 0 0 10px #81fefd;
+}
 
 .Sponsor-container {
   margin-top: 2rem;
