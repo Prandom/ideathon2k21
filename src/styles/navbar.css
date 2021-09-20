@@ -1,0 +1,42 @@
+.Navbar {
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.Navbar-container {
+  height: clamp(85px, 20vh, 100px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height: 100%;
+}
+
+.Navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar-secondary-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.Navbar-secondary-logo img {
+  width: 100%;
+}
+
+.Navbar-secondary-logo-mntc {
+  padding-right: 1rem;
+  border-right: solid 2px aqua;
+}
+
+@media screen and (max-width: 700px) {
+  .Navbar-secondary-logo {
+    display: none;
+  }
+}
