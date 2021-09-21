@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@font-face {
+  font-family: "Ambit";
+  src: url("/src/Font/Ambit\ Regular.otf");
+}
+
 .container {
-  max-width: 1600px;
+  max-width: 1400px;
   width: 100%;
   padding: 0 1rem;
   margin: auto;

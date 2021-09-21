@@ -54,11 +54,11 @@
 
   color: black;
   border-radius: 10px;
+  transition: all 150ms ease-in-out;
 }
-.Hero-btn:hover{
+.Hero-btn:hover {
   background-color: hsl(210, 76%, 23%);
   color: #81fefd;
-  box-shadow: 0 0 10px #81fefd;
 }
 
 .Sponsor-container {
