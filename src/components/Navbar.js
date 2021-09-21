@@ -7,16 +7,19 @@ function Navbar() {
     <div className="Navbar">
       <div className="container Navbar-container">
         <div className="Navbar-logo">
-          <img src="/logos/logo.svg" />
+          <img src="/logos/logo.svg" alt="Ideathon" />
         </div>
 
         <div className="Navbar-secondary-logo">
           <div className="Navbar-secondary-logo-mntc">
-            <a href="https://mntcnitdgp.co.in/"><img src="/logos/mntc-white.svg" /></a>
+            <a href="https://mntcnitdgp.co.in/">
+              <img src="/logos/mntc-white.svg" alt="MNTC" />
+            </a>
           </div>
-          {/* <div className="Navbar-secondary-logo-separator" /> */}
           <div className="Navbar-secondary-logo-nit">
-            <a href="https://nitdgp.ac.in/"><img src="/logos/nit-dgp-white.svg" /></a>
+            <a href="https://nitdgp.ac.in/">
+              <img src="/logos/nit-dgp-white.svg" alt="NIT Durgapur" />
+            </a>
           </div>
         </div>
       </div>

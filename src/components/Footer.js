@@ -12,7 +12,7 @@ function Footer() {
       <div className="container Footer-container">
         <div className="Footer-1">
           <div className="Footer-1-logo">
-            <img src="/logos/mntc-white.svg" />
+            <img src="/logos/mntc-white.svg" alt="" />
           </div>
           <div className="Footer-links-container">
             <h2 className="Footer-links-heading">Contact Us On</h2>
@@ -37,14 +37,14 @@ function Footer() {
         <div className="Footer-2">
           <div className="Footer-2-logo">
             <a href="https://www.geeksforgeeks.org/">
-              <img src="/logos/gfg.svg" />
+              <img src="/logos/gfg.svg" alt="" />
             </a>
           </div>
         </div>
 
         <div className="Footer-3">
           <div className="Footer-3-logo">
-            <img src="/logos/nit-dgp-white.svg" />
+            <img src="/logos/nit-dgp-white.svg" alt="" />
           </div>
 
           <div className="Footer-links-container">
