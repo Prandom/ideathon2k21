@@ -12,11 +12,11 @@ function Navbar() {
 
         <div className="Navbar-secondary-logo">
           <div className="Navbar-secondary-logo-mntc">
-            <img src="/logos/mntc-white.svg" />
+            <a href="https://mntcnitdgp.co.in/"><img src="/logos/mntc-white.svg" /></a>
           </div>
           {/* <div className="Navbar-secondary-logo-separator" /> */}
           <div className="Navbar-secondary-logo-nit">
-            <img src="/logos/nit-dgp-white.svg" />
+            <a href="https://nitdgp.ac.in/"><img src="/logos/nit-dgp-white.svg" /></a>
           </div>
         </div>
       </div>
